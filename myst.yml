@@ -2,15 +2,16 @@
 version: 1
 project:
   id: b2ce2000-895e-47ec-b13d-94a4109104fe
-  title: Minicurso de Visão Computacional
+  title: Minicurso de Introdução do Desenvolvimento Web com Python
   description:
   # keywords: []
   authors: [PETCC-UFRN]
-  github: https://github.com/PETCC-UFRN/minicurso-visao-computacional
+  github: https://github.com/PETCC-UFRN/minicurso-webpython-notebook
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: intro.md
     - file: conteudo/dia_1.ipynb
+    - file: conteudo/primeiroDia.md
     - file: conteudo/dia_2.ipynb
     - file: conteudo/dia_3.ipynb
     - file: conteudo/dia_4.ipynb
