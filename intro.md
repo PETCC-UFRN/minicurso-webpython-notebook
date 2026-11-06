@@ -1,52 +1,52 @@
 # 👋 Boas-vindas
 
-Olá e seja muito **bem-vindo(a)** ao nosso minicurso de **Visão Computacional**!
+Olá e seja muito **bem-vindo(a)** ao nosso minicurso de **Introdução ao Desenvolvimento Back-End com Python: FastAPI**!
 
-Se você já se perguntou **como um computador enxerga o mundo, processa imagens e reconhece padrões**, este curso foi pensado para responder exatamente essa pergunta. Sendo assim, ao longo desses **cinco dias**, aprenderemos desde a estrutura de dados bruta das imagens até a implementação e aplicação de **redes neurais convolucionais** e ferramentas do **estado da arte**.
+Se você já se perguntou **o que acontece por trás de um site ou aplicativo quando você clica em um botão, como os dados são guardados e como o front-end conversa com o servidor**, este curso foi pensado para responder exatamente essa pergunta. Sendo assim, ao longo desses **cinco dias**, aprenderemos desde os conceitos básicos da web e de APIs até a construção de uma **API completa**, com validação de dados, persistência em arquivo e tratamento de erros.
 
-Você aprenderá a manipular desde um **único pixel** até **filtros manuais de convolução**, **fundamentos de aprendizado de máquina** e **modelos avançados de visão**. E mais do que apenas aplicar bibliotecas, o objetivo é entender a **matemática e a mecânica por trás do processamento visual e do treinamento de IAs**.
+Você aprenderá a criar desde uma **única rota** até um **CRUD completo**, passando por **modelos de dados com Pydantic**, **organização de projeto em módulos** e **regras de negócio**. E mais do que apenas copiar código, o objetivo é entender **como uma API funciona por dentro e por que cada parte do código existe**.
 
 ---
 
 # 🚀 Ao final do curso...
 
-Você terá desenvolvido e treinado **suas próprias redes e pipelines de Visão Computacional**, tornando-se capaz de:
+Você terá desenvolvido **sua própria API do zero**, tornando-se capaz de:
 
-- **Aplicar** conceitos de visão computacional diretamente em imagens estáticas;
-- **Familiarizar-se** com a matemática por trás do treinamento de modelos de inteligência artificial;
-- **Implementar** (com suporte) uma rede neural no contexto de visão;
-- **Manejar** as IAs e ferramentas de maior relevância do segmento (como OpenCV, YOLO e MediaPipe);
-- **Compreender** para onde está caminhando o estado da arte da área.
+- **Aplicar** os conceitos de web, cliente-servidor e API REST na construção de um servidor real;
+- **Familiarizar-se** com o ecossistema do FastAPI, do Pydantic e da documentação automática (Swagger);
+- **Implementar** rotas com parâmetros, validação de dados e tratamento de erros;
+- **Manejar** ferramentas essenciais do dia a dia de quem desenvolve (ambiente virtual, terminal, Git e GitHub);
+- **Compreender** como organizar um projeto de forma limpa e profissional.
 
 ---
 
 # 🎯 Objetivo do Curso
 
-Neste minicurso, você construirá uma **base sólida em Visão Computacional**, partindo da manipulação básica de matrizes até o uso de modelos modernos de inteligência artificial.
+Neste minicurso, você construirá uma **base sólida em desenvolvimento back-end**, partindo dos conceitos de web e de uma primeira rota "Hello, Web!" até uma API completa, modular e testada.
 
 Ao final do curso, você será capaz de:
 
-- [x] **Compreender** a estrutura de dados bruta de imagens digitais (pixels, matrizes e espaços de cor);
-- [x] **Implementar** e aplicar filtros manuais e a mecânica da convolução para suavização e detecção de bordas;
-- [x] **Entender** os fundamentos de aprendizado de máquina, neurônios artificiais e funções de perda;
-- [x] **Construir** e visualizar o funcionamento interno de Redes Neurais Convolucionais (CNNs);
-- [x] **Treinar** modelos de classificação e explorar ferramentas industriais como YOLO e MediaPipe.
+- [x] **Compreender** o modelo cliente-servidor, o que é uma API REST, o formato JSON e os códigos de status HTTP;
+- [x] **Criar** servidores e rotas com FastAPI, usando parâmetros de caminho (*path*) e de consulta (*query*);
+- [x] **Modelar** e validar dados com Pydantic, protegendo a API contra entradas inválidas;
+- [x] **Persistir** dados em arquivos JSON e organizar o código em módulos (`main.py`, `models.py` e `database.py`);
+- [x] **Implementar** um CRUD completo com tratamento de erros (404 e 400) e regras de negócio.
 
 ---
 
 # 📦 Pré-requisitos
 
-Para acompanhar o conteúdo com tranquilidade, exige-se ter cursado:
+Para acompanhar o conteúdo com tranquilidade, é esperado ter:
 
-- **Introdução à Inteligência Artificial (IMD3001)**.
+- **Conhecimentos básicos de lógica de programação**: variáveis, condicionais, laços, funções e estruturas de dados simples.
 
-Essa disciplina fornece a base conceitual necessária para absorver os tópicos de inteligência artificial e aprendizado de máquina abordados durante o minicurso.
+Esses conhecimentos fornecem a base necessária para absorver os tópicos de desenvolvimento web abordados durante o minicurso. Ao longo das aulas, faremos comparações com **C++** sempre que isso ajudar a entender algo novo em Python.
 
 :::{important}
-Alguns conceitos práticos e matemáticos específicos **serão aprofundados durante as aulas**. Sendo assim, ao longo do minicurso faremos introduções graduais a assuntos como:
+Alguns conceitos práticos específicos **serão aprofundados durante as aulas**. Sendo assim, ao longo do minicurso faremos introduções graduais a assuntos como:
 
-- **Mecânica da Convolução** e aplicação de kernels;
-- **Descida do Gradiente** e ajuste automático de pesos.
+- **Python para web**: dicionários, tipagem, decoradores e manipulação de arquivos;
+- **Terminal e Git**: ambiente virtual, instalação de pacotes e compartilhamento de código no GitHub.
 
 **Não se preocupe** caso precise de reforço nesses conteúdos: eles serão apresentados de forma intuitiva conforme forem necessários.
 :::
@@ -55,70 +55,72 @@ Alguns conceitos práticos e matemáticos específicos **serão aprofundados dur
 
 # 🛠️ Como o curso será conduzido
 
-O minicurso é estruturado em torno da **evolução prática**: da manipulação direta de matrizes ao treinamento e execução de modelos de IA.
+O minicurso é estruturado em torno da **evolução prática**: da primeira rota ao projeto final, construindo a cada dia uma peça a mais da sua API.
 
-Os participantes realizarão **atividades práticas hands-on** a cada aula, utilizando ambientes interativos e datasets didáticos para implementar os algoritmos e visualizar instantaneamente os resultados das transformações visuais e do aprendizado do modelo.
+Cada aula é dividida em **quatro blocos de cerca de uma hora**: os três primeiros apresentam o conteúdo com exemplos ao vivo, e o último é um **desafio prático**, no qual você aplica o que aprendeu de forma autônoma. Os participantes realizarão **atividades hands-on** a cada dia, testando as rotas diretamente no navegador por meio do Swagger e vendo instantaneamente o resultado de cada alteração no código.
 
 :::{note}
 Este minicurso é **fortemente baseado em prática**.
 
-Cada novo conceito apresentado — seja a conversão para tons de cinza, a aplicação de filtros de borda ou o treinamento de uma CNN — será **implementado ou visualizado na prática**, permitindo consolidar o aprendizado imediatamente.
+Cada novo conceito apresentado — seja uma rota, um modelo do Pydantic, a leitura de um arquivo JSON ou um tratamento de erro — será **implementado e testado na prática**, permitindo consolidar o aprendizado imediatamente.
 :::
 
 ---
 
 # 📅 Cronograma
 
-## 🟢 Dia 1 — Fundamentos da Imagem Digital
+## 🟢 Dia 1 — Fundamentos da Web e Primeiro Servidor
 
-- **Amostragem e Quantização**: Discretização de valores de cor
-- **O Pixel e a Matriz**: A imagem como tabela bidimensional
-- **Espaços de Cor**: Sistema RGB e conversão para Greyscale
-- **Histograma**: Distribuição de luz/sombra e ajuste de contraste
-- **Thresholding (Limiarização)**: Binarização para separação de fundo e objeto
-- **Prática**: Manipulação direta de matrizes, conversão de cores na mão, construção de histogramas e introdução ao OpenCV
-
----
-
-## 🔵 Dia 2 — Filtros Manuais e a Mecânica da Convolução
-
-- **Conceito de Convolução**: Operações de vizinhança usando matrizes de pesos (kernels)
-- **Filtros de Blur (Suavização)**: Redução de ruído e baixas frequências
-- **Filtros de Detecção de Bordas**: Gradientes e filtro de Sobel para encontrar contornos
-- **Prática**: Aplicação de filtros para limpeza de ruído e desenho automático de contornos
+- **Introdução à Web e APIs**: Modelo cliente-servidor, API REST, formato JSON e códigos de status HTTP (200, 400, 404 e 500)
+- **Preparação do Ambiente**: Ambiente virtual (*venv*) e instalação do FastAPI e do Uvicorn
+- **Hello, Web!**: Criação do `main.py`, decoradores de função e a primeira rota com `@app.get("/")`
+- **Rodando a Aplicação**: Execução do servidor e recarregamento automático durante o desenvolvimento
+- **Swagger**: Tour pela documentação automática gerada no endpoint `/docs`
+- **Parâmetros de Rota**: *Path parameters*, *query parameters* e conversão automática de tipos
+- **Prática**: Desafio da Calculadora API, com rotas aritméticas, operações combinadas e proteção contra divisão por zero
 
 ---
 
-## 🟡 Dia 3 — Fundamentos do Aprendizado de Máquina (A Ponte)
+## 🔵 Dia 2 — Pydantic e Rotas POST/GET
 
-- **A Intuição do Aprendizado**: Limites da programação de regras lógicas vs. padrões dinâmicos
-- **O Neurônio Artificial**: Pesos (*weights*) e viés (*bias*)
-- **Corrigindo Erros**: Função de Perda (*Loss*) e Descida do Gradiente
-- **O Problema do Achatamento**: Redes MLPs e a perda de informação espacial
-
-- **Prática**: Visualização interativa do ajuste de pesos (ex: TensorFlow Playground)
----
-
-## 🟠 Dia 4 — O Salto para as Redes Convolucionais (CNNs)
-
-- **O Gargalo da Visão Clássica**: Inviabilidade de filtros manuais para variabilidade complexa
-- **A Camada Convolucional**: Aprendizado automático de kernels dinâmicos
-- **Função de Ativação (ReLU)**: Destaque de características (*features*)
-- **Pooling**: Redução espacial e retenção de características fortes (Max Pooling)
-- **Prática**: Extração e visualização de *Feature Maps* internos em uma CNN
+- **Dicionários e JSON**: Revisão de dicionários em Python e a ponte entre o JSON da web e o dicionário do Python
+- **Modelos de Dados**: Dados na URL vs. corpo da requisição e criação de modelos com `BaseModel`
+- **Rotas POST e GET**: Cadastro e listagem de itens em uma lista em memória, com `status_code=201`
+- **Busca por ID**: Rota `GET` com parâmetro de caminho percorrendo a lista
+- **Validações Avançadas**: `Field`, `EmailStr`, tipos aninhados e o erro 422
+- **Filtros**: *Query parameters* aplicados sobre a lista de dados
+- **Prática**: Desafio do Sistema de Cadastro Criterioso, com validação de usuários (nome, e-mail e senha)
 
 ---
 
-## 🔴 Dia 5 — Treinamento, Classificação e o Estado da Arte
+## 🟡 Dia 3 — Persistência em JSON e Organização do Projeto
 
-- **A Camada Densa**: Flatten, Fully Connected e vetores de probabilidade
-- **O Ciclo de Treinamento Básico**: Comparação de palpites e atualização de parâmetros
-- **Métricas Básicas**: Acurácia e prevenção de *Overfitting*
-- **O Salto para a Indústria**:
-  - **YOLO**: Detecção e classificação de objetos em tempo real
-  - **MediaPipe**: Rastreamento de poses e articulações via APIs
-  - **DINOv3**: Vislumbre do aprendizado autossupervisionado
-- **Prática**: Treinamento de uma CNN no dataset MNIST e demonstração prática interativa com webcam via YOLO/MediaPipe
+- **Por que os dados somem?**: Memória volátil vs. disco
+- **Leitura e Escrita de Arquivos**: Função `open()`, modos de abertura e *context managers* (`with open`)
+- **O módulo `json`**: `json.dump()`, `json.load()` e os parâmetros `indent` e `ensure_ascii`
+- **Conectando a API ao JSON**: Fluxo ler > modificar > salvar, `.model_dump()` e geração automática de ID
+- **Refatoração e Módulos**: Imports, responsabilidade única e divisão do projeto em `main.py`, `models.py` e `database.py`
+- **Prática**: Desafio da Lista de Afazeres Persistente, com tarefas salvas em `tarefas.json`
+
+---
+
+## 🟠 Dia 4 — Tratamento de Erros, Regras de Negócio e CRUD Completo
+
+- **Tratamento de Erros**: `HTTPException`, erros do cliente (4xx) vs. erros do servidor (5xx) e o status 404
+- **Regras de Negócio**: Diferença entre erro de formato (422) e regra violada (400)
+- **Rota DELETE**: Remoção de itens com persistência no arquivo JSON
+- **Filtros no GET**: Parâmetros de consulta opcionais para filtrar resultados
+- **Rota PUT**: Atualização de recursos existentes e fechamento do ciclo CRUD
+- **Prática**: Desafio do Sistema Bancário Simples, com transferências entre contas, verificação de saldo e persistência dos valores
+
+---
+
+## 🔴 Dia 5 — Hackathon e Projeto Final
+
+- **Planejamento**: Escolha do tema (livre ou entre Inventário de RPG, Gerenciador de Tarefas e Cadastro de Alunos), definição das rotas e dos atributos do Pydantic
+- **Desenvolvimento Autônomo**: Construção da API com CRUD completo, leitura e escrita em JSON, separação em módulos e tratamento de erros (404 e 400)
+- **Code Review e Testes**: Compartilhamento do repositório no GitHub e teste da API de outro grupo pelo Swagger
+- **Prática**: Hackathon em grupo, com o professor atuando como *Tech Lead*, tirando dúvidas e destravando problemas
 
 ---
 
@@ -127,10 +129,11 @@ Cada novo conceito apresentado — seja a conversão para tons de cinza, a aplic
 Durante o curso utilizaremos principalmente:
 
 - **Python**
-- **OpenCV**
-- **TensorFlow / PyTorch**
-- **YOLO** e **MediaPipe**
-- **Google Colab / Jupyter Notebooks**
+- **FastAPI** e **Uvicorn**
+- **Pydantic**
+- **Swagger** (documentação automática em `/docs`)
+- **VS Code** e **terminal**
+- **Git** e **GitHub**
 
 Todo o material e código base serão disponibilizados pelos organizadores.
 
@@ -142,10 +145,10 @@ Durante todo o minicurso, os organizadores estarão disponíveis para **esclarec
 
 **Não tenha receio de perguntar!**
 
-Visão Computacional envolve bastante **matemática**, **programação** e **experimentação**, e é completamente normal precisar de ajuda durante o processo.
+Desenvolvimento back-end envolve bastante **lógica**, **programação** e **experimentação**, e é completamente normal precisar de ajuda durante o processo.
 
 ---
 
-Esperamos que este minicurso desperte sua curiosidade pela área e mostre que, por trás de **cada sistema de visão e inteligência artificial**, existe uma enorme quantidade de **matemática**, **algoritmos** e **engenharia**.
+Esperamos que este minicurso desperte sua curiosidade pela área e mostre que, por trás de **cada site e aplicativo**, existe uma enorme quantidade de **lógica**, **organização** e **engenharia**.
 
 # **Vamos começar! 🚀**
