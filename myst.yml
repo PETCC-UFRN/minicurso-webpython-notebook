@@ -11,7 +11,6 @@ project:
   toc:
     - file: intro.md
     - file: conteudo/dia_1.ipynb
-    - file: conteudo/primeiroDia.md
     - file: conteudo/dia_2.ipynb
     - file: conteudo/dia_3.ipynb
     - file: conteudo/dia_4.ipynb
